@@ -1,0 +1,120 @@
+body {
+  background-color: black;
+  color: yellow;
+  font-family: Arial;
+}
+
+strong {
+  color: red;
+  font-family: "Arial Black";
+}
+
+em {
+  font-family: Palatino, serif;
+}
+
+h1 {
+  color: green;
+  font-family: "Arial Black";
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: chartreuse;
+}
+
+.purpose {
+  color: chartreuse;
+  font-family: Arial;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+div {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 80px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 80px; /* Firefox */
+    column-gap: 80px;
+
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+
+    -webkit-column-rule-width: 5px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 5px; /* Firefox */
+    column-rule-width: 5px;
+
+    -webkit-column-rule-color: chartreuse; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: chartreuse; /* Firefox */
+    column-rule-color: chartreuse;
+
+
+}
+
+<!--
+  a:link {color: white; text-decoration: underline; }
+  a:active {color: #0000ff; text-decoration: underline; }
+  a:visited {color: #008000; text-decoration: underline; }
+  a:hover {color: #ff0000; text-decoration: none; }
+-->
+
+.Serif {
+  font-family: Serif;
+}
+
+.Georgia {
+  font-family: Georgia;
+}
+
+.Palatino {
+  font-family: Palatino;
+}
+
+.TimesNewRoman {
+  font-family: "Times New Roman";
+}
+
+.SansSerif {
+  font-family: Sans-Serif;
+}
+
+.Arial {
+  font-family: Arial;
+}
+
+.ArialBlack {
+  font-family: "Arial Black";
+}
+
+.ComicSans {
+  font-family: "Comic Sans MS";
+}
+
+.Geneva {
+  font-family: Geneva, serif;
+}
+
+.Impact {
+  font-family: Impact;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.CourierNew {
+  font-family: "Courier New"
+}
+
+.LucidaConsole {
+  font-family: "Lucida Console";
+}
